@@ -8,4 +8,10 @@ class Puppy
     @age = age
   end
 
+  def months_old
+    self.age * 12
+  end 
+    
+
+
 end
